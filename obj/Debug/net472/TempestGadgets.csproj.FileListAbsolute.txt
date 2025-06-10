@@ -1,0 +1,9 @@
+D:\repos\TempestGadgets\bin\Debug\net472\TempestGadgets.dll
+D:\repos\TempestGadgets\bin\Debug\net472\TempestGadgets.pdb
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.csproj.AssemblyReference.cache
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.AssemblyInfoInputs.cache
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.AssemblyInfo.cs
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.csproj.CoreCompileInputs.cache
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.dll
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.pdb
