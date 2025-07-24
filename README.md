@@ -15,7 +15,7 @@ TempestGadgets提供了一些新的exe, 允许玩家破解更多的端口
   - 在`3659`端口开启后, 节点会在60s后自动重启, 并重设`3659`端口和**管理员密码以及管理员权限**---时刻注意节点状态!
 - `#NET_SPOOF#`|`NetSpoof.exe`:破解`211 (Transfer)`端口
 - `#FRWALL_DEFACER#`|`FirewallDefacer.exe`:破解防火墙(移植于XMOD) (等待实施)
-- `#SIGNAL_FILTER#`|`SignalFilter.exe`:破解`23 (SignalScramble)`端口 (等待实施)
+- `#SIGNAL_FILTER#`|`SignalFilter.exe`:破解`32 (SignalScramble)`端口 (等待实施)
 - `#EN_BREAKER#`|`EnSecBreaker.exe`:通过EnSec直接获取节点管理员权限(移植于XMOD) (等待实施)
 - 等待更新
 
