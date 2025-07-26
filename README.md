@@ -23,7 +23,7 @@ TempestGadgets提供了一些新的exe, 允许玩家破解更多的端口
 - 等待更新
 
 ## 新的`Action`
-- `<EnableScreenGlitch GlitchMult="float">`|`<DisableScreenGlitch>`:开启/关闭屏幕抖动效果
+- `<EnableScreenGlitch GlitchMult="float">`|`<DisableScreenGlitch>`:开启/关闭屏幕抖动效果, 使用GltchMult (0~1的数) 来控制抖动程度
 - 等待更新
 
 ## 新的`Daemon`
