@@ -3,6 +3,7 @@ using BepInEx.Hacknet;
 using Pathfinder.Daemon;
 using Pathfinder.Executable;
 using TempestGadgets.Daemons;
+using Pathfinder.Action;
 
 namespace TempestGadgets;
 
@@ -41,11 +42,19 @@ public class TempestGadgets : HacknetPlugin
         LogDebug("Loading Daemons...");
         DaemonManager.RegisterDaemon<NuclearDaemon>();
 
-
         LogDebug("Loading Executables...");
         ExecutableManager.RegisterExecutable<NetSpoofExe>("#NET_SPOOF#");
         ExecutableManager.RegisterExecutable<VPNBypassExe>("#VPN_BYPASS#");
         ExecutableManager.RegisterExecutable<EOSRootKitExe>("#EOS_ROOTKIT#");
+        ExecutableManager.RegisterExecutable<SignalFilterExe>("#SIGNAL_FILTER#");
+
+        LogDebug("Loading Actions...");
+        ActionManager.RegisterAction<EnableScreenGlitch>("EnableScreenGlitch");
+        ActionManager.RegisterAction<DisableScreenGlitch>("DisableScreenGlitch");
+
+
+
+
         return true;
     }
 

@@ -7,3 +7,4 @@ D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.AssemblyInfo.cs
 D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.csproj.CoreCompileInputs.cache
 D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.dll
 D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.pdb
+D:\repos\TempestGadgets\obj\Debug\net472\TempestGadgets.sourcelink.json

@@ -7,6 +7,7 @@ using Rectangle = Microsoft.Xna.Framework.Rectangle;
 using Hacknet.Gui;
 using Microsoft.Xna.Framework.Input;
 using System.Diagnostics.Eventing.Reader;
+using TempestGadgets.Utils;
 
 
 public class NetSpoofExe : Pathfinder.Executable.BaseExecutable
@@ -26,6 +27,8 @@ public class NetSpoofExe : Pathfinder.Executable.BaseExecutable
     {
         Computer c = ComputerLookup.FindByIp(targetIP);
         TRANSPort = c.GetDisplayPortNumberFromCodePort(211);
+        bool isPortExist = PortDetect.IsHasPort(c, TRANSPort);
+
 
         if (Args.Length < 2)
         {
@@ -34,7 +37,7 @@ public class NetSpoofExe : Pathfinder.Executable.BaseExecutable
             needsRemoval = true;
             return;
         }
-        else if (Int32.Parse(Args[1]) != TRANSPort)
+        else if (Int32.Parse(Args[1]) != TRANSPort || !isPortExist)
         {
             os.write("Target Port is Closed");
             os.write("Execution failed");

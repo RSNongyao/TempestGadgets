@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Color = Microsoft.Xna.Framework.Color;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 using Hacknet.Extensions;
+using TempestGadgets.Utils;
 
 // special THANKS to BI3TKL for graphics!!!
 public class EOSRootKitExe : Pathfinder.Executable.BaseExecutable
@@ -52,6 +53,7 @@ public class EOSRootKitExe : Pathfinder.Executable.BaseExecutable
     {
         Computer comp = ComputerLookup.FindByIp(targetIP);
         EOSPort = comp.GetDisplayPortNumberFromCodePort(3659);
+        bool isPortExist = PortDetect.IsHasPort(comp, EOSPort);
 
         if (Args.Length < 2)
         {
@@ -60,14 +62,14 @@ public class EOSRootKitExe : Pathfinder.Executable.BaseExecutable
             needsRemoval = true;
             return;
         }
-        else if (Int32.Parse(Args[1]) != EOSPort)
+        else if (Int32.Parse(Args[1]) != EOSPort || !isPortExist)
         {
             os.write("Target Port is Closed");
             os.write("Execution failed");
             needsRemoval = true;
             return;
         }
-        else if (comp.adminPass == "alpine")
+        else if (comp.adminPass == "alpine" || comp.isPortOpen(EOSPort))
         {
             os.write("No exploits found");
             os.write("Execution failed");

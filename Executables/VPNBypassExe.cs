@@ -35,6 +35,7 @@ public class VPNBypassExe : Pathfinder.Executable.BaseExecutable
         Computer c = ComputerLookup.FindByIp(targetIP);
         VPNPort = c.GetDisplayPortNumberFromCodePort(123);
         SSLPort = c.GetDisplayPortNumberFromCodePort(443);
+        bool isPortExisit = PortDetect.IsHasPort(c, VPNPort);
 
         foreach (var exe in os.exes)
         {
@@ -53,7 +54,7 @@ public class VPNBypassExe : Pathfinder.Executable.BaseExecutable
             needsRemoval = true;
             return;
         }
-        else if (Int32.Parse(Args[1]) != VPNPort)
+        else if (Int32.Parse(Args[1]) != VPNPort || !isPortExisit)
         {
             os.write("Target Port is Closed");
             os.write("Execution failed");
