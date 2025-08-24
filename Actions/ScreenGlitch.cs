@@ -3,29 +3,34 @@ using Hacknet.Effects;
 using Microsoft.Xna.Framework;
 using Pathfinder.Util;
 
-
-public class EnableScreenGlitch : Pathfinder.Action.DelayablePathfinderAction
+namespace TempestGadgets.Actions
 {
-    public override void Trigger(OS os)
+    public class ScreenAction
     {
-        PostProcessor.EndingSequenceFlashOutActive = true;
-        PostProcessor.EndingSequenceFlashOutPercentageComplete = GlitchMult;
+        public class EnableScreenGlitch : Pathfinder.Action.DelayablePathfinderAction
+        {
+            public override void Trigger(OS os)
+            {
+                PostProcessor.EndingSequenceFlashOutActive = true;
+                PostProcessor.EndingSequenceFlashOutPercentageComplete = GlitchMult;
 
-        Rectangle fullscreenRect = PostProcessor.GetFullscreenRect();
-        FlickeringTextEffect.DrawFlickeringSprite(PostProcessor.sb, fullscreenRect, PostProcessor.target, 12f * GlitchMult, 0f, null, Color.White);
+                Rectangle fullscreenRect = PostProcessor.GetFullscreenRect();
+                FlickeringTextEffect.DrawFlickeringSprite(PostProcessor.sb, fullscreenRect, PostProcessor.target, 12f * GlitchMult, 0f, null, Color.White);
 
+            }
+            [XMLStorage]
+            float GlitchMult = 1f;
+        }
+        public class DisableScreenGlitch : Pathfinder.Action.DelayablePathfinderAction
+        {
+            public override void Trigger(OS os)
+            {
+                PostProcessor.EndingSequenceFlashOutActive = false;
+                PostProcessor.EndingSequenceFlashOutPercentageComplete = 0f;
+            }
+        }
     }
-    [XMLStorage]
-    float GlitchMult = 1f;
 
 
 }
-public class DisableScreenGlitch : Pathfinder.Action.DelayablePathfinderAction
-{
-    public override void Trigger(OS os)
-    {
-        PostProcessor.EndingSequenceFlashOutActive = false;
-        PostProcessor.EndingSequenceFlashOutPercentageComplete = 0f;
-    }
-}    
 

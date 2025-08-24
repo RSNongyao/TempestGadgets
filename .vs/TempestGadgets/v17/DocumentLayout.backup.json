@@ -3,11 +3,16 @@
   "WorkspaceRootPath": "D:\\repos\\TempestGadgets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\tempestgadgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:tempestgadgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\executables\\vpnbypassexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:executables\\vpnbypassexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\14348\\Downloads\\NetSpoofExe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\executables\\signalfilterexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:executables\\signalfilterexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\executables\\ppinjectorexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:executables\\ppinjectorexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\executables\\netspoofexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,52 +23,67 @@
       "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:executables\\eosrootkitexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\executables\\vpnbypassexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:executables\\vpnbypassexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\executables\\mimikatzexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:executables\\mimikatzexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\utils\\cohenclip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:utils\\cohenclip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\utils\\portdetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:utils\\portdetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\OpenHacknet-main\\SQLExploitExe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\actions\\passportswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:actions\\passportswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\utils\\whitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:utils\\whitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\patch\\passportcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:patch\\passportcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\tempestgadgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:tempestgadgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\actions\\screenglitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:actions\\screenglitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\daemons\\nucleardaemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:daemons\\nucleardaemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\eOSinjectorExe\\Executibles\\eOSinjectorExe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\PassPort0\\Patch\\PassPortPatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\OpenHacknet-main\\RTSPPortExe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\utils\\signalwaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:utils\\signalwaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\OpenHacknet-main\\SSLPortExe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\utils\\cohenclip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:utils\\cohenclip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\patch\\passporttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:patch\\passporttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\14348\\Downloads\\Inject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\14348\\AppData\\Local\\Temp\\BNZ.68a77aebc74e0d8\\PortControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\PassPort0\\Exe\\Mimikatz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|d:\\repos\\tempestgadgets\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8F66B2F8-F985-4B27-ABAD-42E9CD52B911}|TempestGadgets.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\stuxnethn\\Executables\\Wireshark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\OpenHacknet-main\\UIUtils\\AnimatedSpriteExporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\ZeroDayToolKit-main\\Executibles\\SQLTXCrasherEXE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\OpenHacknet-main\\Gui\\TextItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\Hacknet-Pathfinder-XMOD-Dev-master\\Executables\\EosCrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\ZeroDayToolKit-main\\Executibles\\PortBackdoorEXE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\WOW Blizzard Breaker\\WOW Blizzard Breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\stuxnethn\\Executables\\RadioV3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,160 +92,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 92,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 152,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NetSpoofExe.cs",
-              "DocumentMoniker": "C:\\Users\\14348\\Downloads\\NetSpoofExe.cs",
-              "ToolTip": "C:\\Users\\14348\\Downloads\\NetSpoofExe.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswDMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:39:24.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SQLExploitExe.cs",
-              "DocumentMoniker": "D:\\repos\\OpenHacknet-main\\SQLExploitExe.cs",
-              "RelativeDocumentMoniker": "..\\OpenHacknet-main\\SQLExploitExe.cs",
-              "ToolTip": "D:\\repos\\OpenHacknet-main\\SQLExploitExe.cs",
-              "RelativeToolTip": "..\\OpenHacknet-main\\SQLExploitExe.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T13:56:22.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RTSPPortExe.cs",
-              "DocumentMoniker": "D:\\repos\\OpenHacknet-main\\RTSPPortExe.cs",
-              "RelativeDocumentMoniker": "..\\OpenHacknet-main\\RTSPPortExe.cs",
-              "ToolTip": "D:\\repos\\OpenHacknet-main\\RTSPPortExe.cs",
-              "RelativeToolTip": "..\\OpenHacknet-main\\RTSPPortExe.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswGEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T08:19:03.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SSLPortExe.cs",
-              "DocumentMoniker": "D:\\repos\\OpenHacknet-main\\SSLPortExe.cs",
-              "RelativeDocumentMoniker": "..\\OpenHacknet-main\\SSLPortExe.cs",
-              "ToolTip": "D:\\repos\\OpenHacknet-main\\SSLPortExe.cs",
-              "RelativeToolTip": "..\\OpenHacknet-main\\SSLPortExe.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAqwNAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:32:50.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "eOSinjectorExe.cs",
-              "DocumentMoniker": "D:\\repos\\eOSinjectorExe\\Executibles\\eOSinjectorExe.cs",
-              "RelativeDocumentMoniker": "..\\eOSinjectorExe\\Executibles\\eOSinjectorExe.cs",
-              "ToolTip": "D:\\repos\\eOSinjectorExe\\Executibles\\eOSinjectorExe.cs",
-              "RelativeToolTip": "..\\eOSinjectorExe\\Executibles\\eOSinjectorExe.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T13:30:50.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SQLTXCrasherEXE.cs",
-              "DocumentMoniker": "D:\\repos\\ZeroDayToolKit-main\\Executibles\\SQLTXCrasherEXE.cs",
-              "RelativeDocumentMoniker": "..\\ZeroDayToolKit-main\\Executibles\\SQLTXCrasherEXE.cs",
-              "ToolTip": "D:\\repos\\ZeroDayToolKit-main\\Executibles\\SQLTXCrasherEXE.cs",
-              "RelativeToolTip": "..\\ZeroDayToolKit-main\\Executibles\\SQLTXCrasherEXE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T10:10:23.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AnimatedSpriteExporter.cs",
-              "DocumentMoniker": "D:\\repos\\OpenHacknet-main\\UIUtils\\AnimatedSpriteExporter.cs",
-              "RelativeDocumentMoniker": "..\\OpenHacknet-main\\UIUtils\\AnimatedSpriteExporter.cs",
-              "ToolTip": "D:\\repos\\OpenHacknet-main\\UIUtils\\AnimatedSpriteExporter.cs",
-              "RelativeToolTip": "..\\OpenHacknet-main\\UIUtils\\AnimatedSpriteExporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:34:02.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TextItem.cs",
-              "DocumentMoniker": "D:\\repos\\OpenHacknet-main\\Gui\\TextItem.cs",
-              "RelativeDocumentMoniker": "..\\OpenHacknet-main\\Gui\\TextItem.cs",
-              "ToolTip": "D:\\repos\\OpenHacknet-main\\Gui\\TextItem.cs",
-              "RelativeToolTip": "..\\OpenHacknet-main\\Gui\\TextItem.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:55:12.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EosCrack.cs",
-              "DocumentMoniker": "D:\\repos\\Hacknet-Pathfinder-XMOD-Dev-master\\Executables\\EosCrack.cs",
-              "RelativeDocumentMoniker": "..\\Hacknet-Pathfinder-XMOD-Dev-master\\Executables\\EosCrack.cs",
-              "ToolTip": "D:\\repos\\Hacknet-Pathfinder-XMOD-Dev-master\\Executables\\EosCrack.cs",
-              "RelativeToolTip": "..\\Hacknet-Pathfinder-XMOD-Dev-master\\Executables\\EosCrack.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:56:12.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PortBackdoorEXE.cs",
-              "DocumentMoniker": "D:\\repos\\ZeroDayToolKit-main\\Executibles\\PortBackdoorEXE.cs",
-              "RelativeDocumentMoniker": "..\\ZeroDayToolKit-main\\Executibles\\PortBackdoorEXE.cs",
-              "ToolTip": "D:\\repos\\ZeroDayToolKit-main\\Executibles\\PortBackdoorEXE.cs",
-              "RelativeToolTip": "..\\ZeroDayToolKit-main\\Executibles\\PortBackdoorEXE.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T10:07:44.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RadioV3.cs",
-              "DocumentMoniker": "D:\\repos\\stuxnethn\\Executables\\RadioV3.cs",
-              "RelativeDocumentMoniker": "..\\stuxnethn\\Executables\\RadioV3.cs",
-              "ToolTip": "D:\\repos\\stuxnethn\\Executables\\RadioV3.cs",
-              "RelativeToolTip": "..\\stuxnethn\\Executables\\RadioV3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T09:52:16.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WOW Blizzard Breaker.cs",
-              "DocumentMoniker": "D:\\repos\\WOW Blizzard Breaker\\WOW Blizzard Breaker.cs",
-              "RelativeDocumentMoniker": "..\\WOW Blizzard Breaker\\WOW Blizzard Breaker.cs",
-              "ToolTip": "D:\\repos\\WOW Blizzard Breaker\\WOW Blizzard Breaker.cs",
-              "RelativeToolTip": "..\\WOW Blizzard Breaker\\WOW Blizzard Breaker.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAvwOcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T09:51:50.965Z"
             }
           ]
         },
         {
-          "DockedWidth": 232,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 102,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -233,79 +111,279 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
+              "Title": "Inject.cs",
+              "DocumentMoniker": "C:\\Users\\14348\\Downloads\\Inject.cs",
+              "ToolTip": "C:\\Users\\14348\\Downloads\\Inject.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:19:44.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PassPortPatch.cs",
+              "DocumentMoniker": "D:\\repos\\PassPort0\\Patch\\PassPortPatch.cs",
+              "RelativeDocumentMoniker": "..\\PassPort0\\Patch\\PassPortPatch.cs",
+              "ToolTip": "D:\\repos\\PassPort0\\Patch\\PassPortPatch.cs",
+              "RelativeToolTip": "..\\PassPort0\\Patch\\PassPortPatch.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:49:46.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 242,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MimikatzExe.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Executables\\MimikatzExe.cs",
+              "RelativeDocumentMoniker": "Executables\\MimikatzExe.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Executables\\MimikatzExe.cs",
+              "RelativeToolTip": "Executables\\MimikatzExe.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAYwNYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:49:05.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PPInjectorExe.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Executables\\PPInjectorExe.cs",
+              "RelativeDocumentMoniker": "Executables\\PPInjectorExe.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Executables\\PPInjectorExe.cs",
+              "RelativeToolTip": "Executables\\PPInjectorExe.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwFMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:36:21.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignalFilterExe.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Executables\\SignalFilterExe.cs",
+              "RelativeDocumentMoniker": "Executables\\SignalFilterExe.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Executables\\SignalFilterExe.cs",
+              "RelativeToolTip": "Executables\\SignalFilterExe.cs",
+              "ViewState": "AgIAAFoBAAAAAAAAAAAiwHMBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:38:13.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "VPNBypassExe.cs",
               "DocumentMoniker": "D:\\repos\\TempestGadgets\\Executables\\VPNBypassExe.cs",
               "RelativeDocumentMoniker": "Executables\\VPNBypassExe.cs",
               "ToolTip": "D:\\repos\\TempestGadgets\\Executables\\VPNBypassExe.cs",
               "RelativeToolTip": "Executables\\VPNBypassExe.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwv2QAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T13:23:45.871Z"
+              "WhenOpened": "2025-07-25T14:54:14.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NetSpoofExe.cs",
               "DocumentMoniker": "D:\\repos\\TempestGadgets\\Executables\\NetSpoofExe.cs",
               "RelativeDocumentMoniker": "Executables\\NetSpoofExe.cs",
               "ToolTip": "D:\\repos\\TempestGadgets\\Executables\\NetSpoofExe.cs",
               "RelativeToolTip": "Executables\\NetSpoofExe.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAJYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAQwDwBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T13:23:42.456Z"
+              "WhenOpened": "2025-07-25T13:24:20.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EOSRootKitExe.cs",
               "DocumentMoniker": "D:\\repos\\TempestGadgets\\Executables\\EOSRootKitExe.cs",
               "RelativeDocumentMoniker": "Executables\\EOSRootKitExe.cs",
               "ToolTip": "D:\\repos\\TempestGadgets\\Executables\\EOSRootKitExe.cs",
               "RelativeToolTip": "Executables\\EOSRootKitExe.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwHQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAqwP8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T13:23:35.114Z"
+              "WhenOpened": "2025-08-18T15:36:51.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "PortDetect.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Utils\\PortDetect.cs",
+              "RelativeDocumentMoniker": "Utils\\PortDetect.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Utils\\PortDetect.cs",
+              "RelativeToolTip": "Utils\\PortDetect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T06:59:03.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PassPortSwitch.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Actions\\PassPortSwitch.cs",
+              "RelativeDocumentMoniker": "Actions\\PassPortSwitch.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Actions\\PassPortSwitch.cs",
+              "RelativeToolTip": "Actions\\PassPortSwitch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:47:18.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Whitelist.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Utils\\Whitelist.cs",
+              "RelativeDocumentMoniker": "Utils\\Whitelist.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Utils\\Whitelist.cs",
+              "RelativeToolTip": "Utils\\Whitelist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T16:33:05.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PassPortContent.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Patch\\PassPortContent.cs",
+              "RelativeDocumentMoniker": "Patch\\PassPortContent.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Patch\\PassPortContent.cs",
+              "RelativeToolTip": "Patch\\PassPortContent.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAowAMBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:11:39.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TempestGadgets.cs",
               "DocumentMoniker": "D:\\repos\\TempestGadgets\\TempestGadgets.cs",
               "RelativeDocumentMoniker": "TempestGadgets.cs",
               "ToolTip": "D:\\repos\\TempestGadgets\\TempestGadgets.cs",
               "RelativeToolTip": "TempestGadgets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:19:18.587Z"
+              "WhenOpened": "2025-05-17T12:19:18.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "ScreenGlitch.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Actions\\ScreenGlitch.cs",
+              "RelativeDocumentMoniker": "Actions\\ScreenGlitch.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Actions\\ScreenGlitch.cs",
+              "RelativeToolTip": "Actions\\ScreenGlitch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T15:47:42.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "NuclearDaemon.cs",
               "DocumentMoniker": "D:\\repos\\TempestGadgets\\Daemons\\NuclearDaemon.cs",
               "RelativeDocumentMoniker": "Daemons\\NuclearDaemon.cs",
               "ToolTip": "D:\\repos\\TempestGadgets\\Daemons\\NuclearDaemon.cs",
               "RelativeToolTip": "Daemons\\NuclearDaemon.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T18:59:44.309Z"
+              "WhenOpened": "2025-08-23T16:25:48.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "SignalWaves.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Utils\\SignalWaves.cs",
+              "RelativeDocumentMoniker": "Utils\\SignalWaves.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Utils\\SignalWaves.cs",
+              "RelativeToolTip": "Utils\\SignalWaves.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T16:33:03.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CohenClip.cs",
               "DocumentMoniker": "D:\\repos\\TempestGadgets\\Utils\\CohenClip.cs",
               "RelativeDocumentMoniker": "Utils\\CohenClip.cs",
               "ToolTip": "D:\\repos\\TempestGadgets\\Utils\\CohenClip.cs",
               "RelativeToolTip": "Utils\\CohenClip.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:06:42.87Z"
+              "WhenOpened": "2025-06-09T12:06:42.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
+              "Title": "PassPortTrigger.cs",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\Patch\\PassPortTrigger.cs",
+              "RelativeDocumentMoniker": "Patch\\PassPortTrigger.cs",
+              "ToolTip": "D:\\repos\\TempestGadgets\\Patch\\PassPortTrigger.cs",
+              "RelativeToolTip": "Patch\\PassPortTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T12:38:20.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PortControl.cs",
+              "DocumentMoniker": "C:\\Users\\14348\\AppData\\Local\\Temp\\BNZ.68a77aebc74e0d8\\PortControl.cs",
+              "ToolTip": "C:\\Users\\14348\\AppData\\Local\\Temp\\BNZ.68a77aebc74e0d8\\PortControl.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T20:00:43.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Mimikatz.cs",
+              "DocumentMoniker": "D:\\repos\\PassPort0\\Exe\\Mimikatz.cs",
+              "RelativeDocumentMoniker": "..\\PassPort0\\Exe\\Mimikatz.cs",
+              "ToolTip": "D:\\repos\\PassPort0\\Exe\\Mimikatz.cs",
+              "RelativeToolTip": "..\\PassPort0\\Exe\\Mimikatz.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAJwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:49:25.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\repos\\TempestGadgets\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\repos\\TempestGadgets\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-28T16:31:52.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Wireshark.cs",
               "DocumentMoniker": "D:\\repos\\stuxnethn\\Executables\\Wireshark.cs",
               "RelativeDocumentMoniker": "..\\stuxnethn\\Executables\\Wireshark.cs",

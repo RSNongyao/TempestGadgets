@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TempestGadgets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae965c5184bb3113fd23d4171e86a101444856b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b33bb636b5b8928a4ba3f54f677bea8a3d36ee8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TempestGadgets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TempestGadgets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
