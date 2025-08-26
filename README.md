@@ -25,7 +25,7 @@ TempestGadgets提供了一些新的exe, 允许玩家破解更多的端口
 - 等待更新
 
 ## 新的`Action`
-- `<EnableScreenGlitch GlitchMult="float">`|`<DisableScreenGlitch>`:开启/关闭屏幕抖动效果, 使用GltchMult (0~1的数) 来控制抖动程度
+- `<EnableScreenGlitch GlitchMult="float" />`|`<DisableScreenGlitch />`:开启/关闭屏幕抖动效果, 使用GltchMult (0~1的数) 来控制抖动程度
 - `<SwitchPPEntry target="CompID" path="<path>" name="example.passport" id="entryID" isActive="bool" />`:切换PassPort条目的可用性 (详见[PassPort](./example/TestNode.xml)系统)
 - 等待更新
 
