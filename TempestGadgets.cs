@@ -60,6 +60,7 @@ public class TempestGadgets : HacknetPlugin
         ExecutableManager.RegisterExecutable<SignalFilterExe>("#SIGNAL_FILTER#");
         ExecutableManager.RegisterExecutable<MimikatzExe>("#PASSPORT_READER#");
         ExecutableManager.RegisterExecutable<PPInjectorExe>("#PASSPORT_INJECT#");
+        ExecutableManager.RegisterExecutable<EnBreakerExe>("#ENSEC_BREAKER#");
 
         LogDebug("Loading Actions...");
         ActionManager.RegisterAction<ScreenAction.EnableScreenGlitch>("EnableScreenGlitch");

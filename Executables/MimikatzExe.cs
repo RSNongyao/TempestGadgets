@@ -115,7 +115,7 @@ namespace TempestGadgets.Executables
                     break;
             }
 
-            spriteBatch.Draw(Hacknet.Utils.white, drawArea, Color.DarkOliveGreen);
+            spriteBatch.Draw(Hacknet.Utils.white, drawArea, os.moduleColorSolidDefault);
             GuiData.spriteBatch.DrawString(GuiData.detailfont, $"{logo}", new Vector2(drawArea.Left + 3, drawArea.Y - 15), Color.White, 0f, Vector2.Zero, 1f, default, default);
             GuiData.spriteBatch.DrawString(GuiData.detailfont, "mimikatz 2.2.0", new Vector2(drawArea.Right / 3 - 4, drawArea.Y), Color.White, 0f, Vector2.Zero, 1f, default, default);
             GuiData.spriteBatch.DrawString(GuiData.detailfont, "20150813(x86/hacknetOS)",new Vector2(drawArea.Right / 3, drawArea.Y + drawArea.Height / 6),Color.White, 0f, Vector2.Zero, 1f,default,default);

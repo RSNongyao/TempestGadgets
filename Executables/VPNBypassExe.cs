@@ -83,7 +83,7 @@ namespace TempestGadgets.Executables
             Vector2 scale = new Vector2(pointRatio / point.Width);
             List<Vector2> tangentPoints = GenerateArithmeticPoints();
             Vector2 center = new Vector2(Bounds.Center.X, Bounds.Center.Y);
-            Rectangle rectangle = new Rectangle(this.bounds.X, this.bounds.Y, this.bounds.Width, this.bounds.Height);
+            Rectangle drawArea = Hacknet.Utils.InsetRectangle(new Rectangle(this.bounds.X, this.bounds.Y + Module.PANEL_HEIGHT, this.bounds.Width, this.bounds.Height - Module.PANEL_HEIGHT), 2);
             Vector2 realStart = new Vector2();
             Vector2 realEnd = new Vector2();
 
@@ -98,7 +98,7 @@ namespace TempestGadgets.Executables
                     float tangentLength = 1000f;
                     Vector2 start = tangent + tangentDir * tangentLength / 2f;
                     Vector2 end = tangent - tangentDir * tangentLength / 2f;
-                    if (CohenClip.CohenSutherlandClip(rectangle, start, end, out realStart, out realEnd))
+                    if (CohenClip.CohenSutherlandClip(drawArea, start, end, out realStart, out realEnd))
                     {
                         start = realStart;
                         end = realEnd;

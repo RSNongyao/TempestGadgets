@@ -43,6 +43,7 @@ namespace TempestGadgets.Executables
                 needsRemoval = true;
                 return;
             }
+            c.hostileActionTaken();
             base.LoadContent();
         }
 
@@ -65,7 +66,6 @@ namespace TempestGadgets.Executables
             int rightRectHeight = (int)(leftHeight / 8);
             int totalRectsHeight = 8 * rightRectHeight + 7 * gapBetweenRects;
             int startY = drawArea.Y;
-
 
             Color lineColor = Color.White;
             Vector2 Anchor1 = new Vector2(CentralRect.Right + gapToCentral / 2, CentralRect.Y + CentralHeight / 2);
@@ -99,7 +99,6 @@ namespace TempestGadgets.Executables
                 }
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[0], RectColor);
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[7], RectColor);
-
             }
             else if (lifetime > 3f && lifetime <= 8f)
             {
@@ -113,7 +112,6 @@ namespace TempestGadgets.Executables
 
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[1], RectColor);
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[6], RectColor);
-
             }
             else if (lifetime > 8f && lifetime <= 14.5f)
             {
@@ -129,7 +127,6 @@ namespace TempestGadgets.Executables
 
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[2], RectColor);
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[5], RectColor);
-
             }
             else if (lifetime > 14.5f)
             {
@@ -141,10 +138,8 @@ namespace TempestGadgets.Executables
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[6], os.brightLockedColor);
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[7], os.brightLockedColor);
 
-
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[3], RectColor);
                 spriteBatch.Draw(Hacknet.Utils.white, userRect[4], RectColor);
-
             }
 
             Rectangle attackArea = new Rectangle(drawArea.X, drawArea.Y, CentralRect.Left - gapToCentral, drawArea.Height);
@@ -174,10 +169,9 @@ namespace TempestGadgets.Executables
 
             int centerRow = 15;
 
-            // 将以下参数调整：
-            float shootDuration = 0.2f; // 每次射击动画时长（加长）
-            float shootInterval = 0.01f; // 每次射击间隔（缩短）
-            float shootCycle = shootInterval; // 每个小矩形的完整射击周期
+            float shootDuration = 0.1f;
+            float shootInterval = 0.1f;
+            float shootCycle = shootInterval;
 
             int minExpandRow = centerRow - 1;
             int maxExpandRow = centerRow;
@@ -189,18 +183,21 @@ namespace TempestGadgets.Executables
                 int maxCol = 2 + (int)(lerp * 1.0f + 0.5f);
                 minCol = Math.Max(0, minCol);
                 maxCol = Math.Min(cols - 1, maxCol);
+
+                // 随机射击：每个小矩形射击的概率会在23s内从0.5增长到1
+                Random rand = new Random((int)(lifetime * 1000)); // 保证每帧一致
+                double baseChance = 0.5;
+                double maxChance = 1.0;
+                double shootChance = baseChance + (maxChance - baseChance) * Math.Min(lifetime / 23.0, 1.0);
                 for (int row = centerRow - 1; row <= centerRow; row++)
                 {
                     for (int col = minCol; col <= maxCol; col++)
                     {
                         spriteBatch.Draw(Hacknet.Utils.white, attackGridRects[row, col], Color.Orange);
 
-                        // 顺序射击：每个小矩形的射击时间依次递增
-                        int rectIndex = (row - (centerRow - 1)) * (maxCol - minCol + 1) + (col - minCol);
-                        float rectStartTime = rectIndex * shootCycle;
-                        float rectElapsed = lifetime - rectStartTime;
-                        bool isShooting = rectElapsed >= 0 && rectElapsed < shootDuration && lifetime < 22.5f;
-                        float shootLerp = isShooting ? (rectElapsed / shootDuration) : 1f;
+                        // 随机决定是否射击
+                        bool isShooting = rand.NextDouble() < shootChance && lifetime < 22.5f;
+                        float shootLerp = isShooting ? (float)rand.NextDouble() : 1f;
 
                         if (isShooting)
                         {
@@ -255,21 +252,17 @@ namespace TempestGadgets.Executables
                     }
                 }
 
-                int rectCount = (maxExpandRow - minExpandRow + 1) * cols;
-                int rectIdx = 0;
-                float totalCycle = rectCount * shootCycle;
+                // 随机射击：每个小矩形射击的概率和持续时间一样
+                Random rand = new Random((int)(lifetime * 1000)); // 保证每帧一致
                 for (int row = minExpandRow; row <= maxExpandRow; row++)
                 {
-                    for (int col = 0; col < cols; col++, rectIdx++)
+                    for (int col = 0; col < cols; col++)
                     {
                         spriteBatch.Draw(Hacknet.Utils.white, attackGridRects[row, col], Color.Orange);
 
-                        // 循环射击：每个小矩形的射击时间在总周期内循环
-                        float rectStartTime = rectIdx * shootCycle;
-                        float timeInCycle = (lifetime - rectStartTime) % totalCycle;
-                        if (timeInCycle < 0) timeInCycle += totalCycle;
-                        bool isShooting = timeInCycle >= 0 && timeInCycle < shootDuration && lifetime < 22.5f;
-                        float shootLerp = isShooting ? (timeInCycle / shootDuration) : 1f;
+                        double shootChance = shootDuration / Math.Max(0.01, (maxExpandRow - minExpandRow + 1) * cols * shootCycle);
+                        bool isShooting = rand.NextDouble() < shootChance && lifetime < 22.5f;
+                        float shootLerp = isShooting ? (float)rand.NextDouble() : 1f;
 
                         if (isShooting)
                         {
@@ -280,7 +273,6 @@ namespace TempestGadgets.Executables
                     }
                 }
             }
-
         }
 
         public Color GreenToRed(float startTime, float totalDuration)

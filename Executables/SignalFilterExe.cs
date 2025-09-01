@@ -65,7 +65,6 @@ namespace TempestGadgets.Executables
 
             Computer c = ComputerLookup.FindByIp(targetIP);
             SIGNALPort = c.GetDisplayPortNumberFromCodePort(32);
-            Console.WriteLine($"Port {SIGNALPort}");
             bool isPortExisit = PortDetect.IsHasPort(c, SIGNALPort);
 
             if (Args.Length < 2)
@@ -82,6 +81,7 @@ namespace TempestGadgets.Executables
                 needsRemoval = true;
                 return;
             }
+            c.hostileActionTaken();
             base.LoadContent();
         }
 

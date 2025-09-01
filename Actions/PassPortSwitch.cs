@@ -34,81 +34,56 @@ namespace TempestGadgets.Actions
                 if (!string.IsNullOrEmpty(path) && !string.IsNullOrEmpty(name))
                 {
                     Folder ppFolder = c.getFolderFromPath(path);
+                    FileEntry passportFile = ppFolder.searchForFile(name)
+                        ?? throw new FileNotFoundException("PassPort file not found in specified folder.");
 
-                    if (ppFolder.searchForFile(name) != null)
+                    if (!passportFile.data.StartsWith("MIMIKATZ_KERBEROS_PASSPORT :: 2.2.0 ------------"))
+                        throw new FormatException("Invalid PassPort File");
+
+                    PassPortContent content = PassPortContent.GetContentsFromEncodedFileString(passportFile.data)
+                        ?? throw new FormatException("Invalid PassPort File");
+
+                    var entry = content.entries.FirstOrDefault(e => e.id == id);
+                    if (entry != null)
                     {
-                        FileEntry passportFile = ppFolder.searchForFile(name);
-
-                        if (!passportFile.data.StartsWith("MIMIKATZ_KERBEROS_PASSPORT :: 2.2.0 ------------"))
-                        {
-                            throw new FormatException("Invalid PassPort File");
-                        }
-
-                        PassPortContent content = PassPortContent.GetContentsFromEncodedFileString(passportFile.data) ?? throw new FormatException("Invalid PassPort File");
-                        foreach (var entry in content.entries)
-                        {
-                            if (entry.id == id)
-                            {
-                                entry.isActive = isActive;
-
-
-                                passportFile.data = content.GetEncodedFileString();
-
-                                bool match = PPInjectorExe.IsEntryDuplicate(entry, TempestGadgets.UsedPassPort);
-                                if (!match)
-                                {
-                                    TempestGadgets.UsedPassPort.Add(content);
-                                }
-                                else
-                                {
-                                    foreach (var usedContent in TempestGadgets.UsedPassPort)
-                                    {
-                                        if (usedContent.entries.Any(e => e.id == id))
-                                        {
-                                            usedContent.entries.RemoveAll(e => e.id == id);
-                                            usedContent.entries.Add(entry);
-                                            break;
-                                        }
-                                    }
-                                }
-                                break;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        throw new FileNotFoundException("PassPort file not found in specified folder.");
+                        entry.isActive = isActive;
+                        passportFile.data = content.GetEncodedFileString();
+                        UpdateUsedPassPort(entry, content);
                     }
                 }
                 else
                 {
                     PassPortContent contents = TempestGadgets.PassPortComps[c.idName];
-                    foreach (var entry in contents.entries)
+                    var entry = contents.entries.FirstOrDefault(e => e.id == id);
+                    if (entry != null)
                     {
-                        bool match = PPInjectorExe.IsEntryDuplicate(entry, TempestGadgets.UsedPassPort);
-                        if (entry.id == id)
+                        entry.isActive = isActive;
+                        if (!PPInjectorExe.IsEntryDuplicate(entry, TempestGadgets.UsedPassPort))
                         {
-                            entry.isActive = isActive;
-                            if (!match)
-                            {
-                                var singleEntryContent = new PassPortContent
-                                {
-                                    entries = new List<PassPortEntry> { entry }
-                                };
-                                TempestGadgets.UsedPassPort.Add(singleEntryContent);
-                            }
-                            else
-                            {
-                                foreach (var usedContent in TempestGadgets.UsedPassPort)
-                                {
-                                    if (usedContent.entries.Any(e => e.id == id))
-                                    {
-                                        usedContent.entries.RemoveAll(e => e.id == id);
-                                        usedContent.entries.Add(entry);
-                                        break;
-                                    }
-                                }
-                            }
+                            TempestGadgets.UsedPassPort.Add(new PassPortContent { entries = new List<PassPortEntry> { entry } });
+                        }
+                        else
+                        {
+                            UpdateUsedPassPort(entry, null);
+                        }
+                    }
+                }
+            }
+            private void UpdateUsedPassPort(PassPortEntry entry, PassPortContent content)
+            {
+                bool match = PPInjectorExe.IsEntryDuplicate(entry, TempestGadgets.UsedPassPort);
+                if (!match && content != null)
+                {
+                    TempestGadgets.UsedPassPort.Add(content);
+                }
+                else
+                {
+                    foreach (var usedContent in TempestGadgets.UsedPassPort)
+                    {
+                        if (usedContent.entries.Any(e => e.id == entry.id))
+                        {
+                            usedContent.entries.RemoveAll(e => e.id == entry.id);
+                            usedContent.entries.Add(entry);
                             break;
                         }
                     }
