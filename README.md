@@ -20,11 +20,11 @@ TempestGadgets提供了一些新的exe, 允许玩家破解更多的端口
   - 此exe被`kill`后, 会**强制关闭**`32`端口以及随机操作的所有端口
 - `#PASSPORT_READER#`|`Mimikatz.exe`:读取/下载节点内所有的PassPort令牌 (详见[PassPort](./example/TestNode.xml)系统)
 - `#PASSPORT_INJECT#`|`PPInjector.exe`:执行PassPort令牌文件 (详见[PassPort](./example/TestNode.xml)系统)
-- `#ENSEC_BREAKER#`|`EnSecBreaker.exe`:破解EnSec使破解所需端口数降低(移植于[XMOD](https://github.com/tenesiss/Hacknet-Pathfinder-XMOD-Dev)
+- `#ENSEC_BREAKER#`|`EnSecBreaker.exe`:破解EnSec使破解所需端口数降低(移植于[XMOD](https://github.com/tenesiss/Hacknet-Pathfinder-XMOD-Dev))
   - 此exe需要先破解4个必需的端口才能运行
   - 在破解途中会至多执行4个强制性的`ForkBomb`, 无法通过Trap避免触发
   - 在破解完成后, 有25%的概率会重置所有端口 
-- `#FRWALL_DEFACER#`|`FirewallDefacer.exe`:破解防火墙(移植于[XMOD](https://github.com/tenesiss/Hacknet-Pathfinder-XMOD-Dev) (等待实施)
+- `#FRWALL_DEFACER#`|`FirewallDefacer.exe`:破解防火墙(移植于[XMOD](https://github.com/tenesiss/Hacknet-Pathfinder-XMOD-Dev)) (等待实施)
 - 等待更新
 
 ## 新的`Action`
